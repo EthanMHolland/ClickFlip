@@ -1,6 +1,6 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
-::res://::1701423327
-default_env.tres::Environment::3365181486601765086::1701422719::0::1::::<><>::
+::res://::1701459602
+default_env.tres::Environment::3365181486601765086::1701425882::0::1::::<><>::
 export_presets.cfg::TextFile::-1::1701422627::0::1::::<><>::
 icon.png::CompressedTexture2D::4785730501412789516::1695669659::1701423157::1::::<><>::
 ::res://assets/::1701424627
@@ -41,7 +41,7 @@ Medal22.png::CompressedTexture2D::4154918162946171735::1701329937::1701423157::1
 Medal23.png::CompressedTexture2D::3749143786965169985::1701330084::1701423157::1::::<><>::
 Medal24.png::CompressedTexture2D::3641841081247195005::1701330155::1701423157::1::::<><>::
 Medal25.png::CompressedTexture2D::9044182311234916918::1701330262::1701423157::1::::<><>::
-::res://assets/Menu/::1701425854
+::res://assets/Menu/::1701425862
 buttonDisabled.png::CompressedTexture2D::856509329911546775::1701296177::1701423157::1::::<><>::
 buttonNormal.png::CompressedTexture2D::5140128043550996969::1701295800::1701423157::1::::<><>::
 buttonPressed.png::CompressedTexture2D::804197692255998248::1701296085::1701423157::1::::<><>::
@@ -53,7 +53,7 @@ SettingsButton.png::CompressedTexture2D::3297571895784218126::1701425714::170142
 SettingsButtonPressed.png::CompressedTexture2D::6811063899490626486::1701425814::1701425862::1::::<><>::
 smallButton.png::CompressedTexture2D::5629915820595290812::1701410087::1701423157::1::::<><>::
 smallButtonPressed.png::CompressedTexture2D::926063717197115676::1701410165::1701423157::1::::<><>::
-::res://src/::1701422719
+::res://src/::1701425882
 CityBackground.tscn::PackedScene::3661392442752377837::1701422719::0::1::::<><>::uid://3bc7kxjuefrv::::res://assets/CityBackground.png
 ClickFlipScene.tscn::PackedScene::3546118305546938701::1701422719::0::1::::<><>::uid://bmdarvyaprfh0::::res://src/Player.tscn
 Player.tscn::PackedScene::3234911439194430483::1701422719::0::1::::<><>::res://src/PlayerVariables.gd<>res://src/Skateboard.tscn<>uid://bsfuul8hnd246::::res://src/CityBackground.tscn<>uid://l2iqq5f4l42u::::res://src/SkillsHUD.tscn<>res://src/Settings.tscn<>uid://ckvkah72shfty::::res://assets/Menu/buttonPressed.png<>uid://ev06stv22ofv::::res://assets/Ollie.png<>uid://c5gnr6anif3jq::::res://assets/Menu/buttonNormal.png<>uid://5aerncioqset::::res://assets/Nollie.png<>uid://cc8b5ovew4dec::::res://assets/Heelflip.png<>uid://4vn3uph002ch::::res://assets/Kickflip.png<>uid://i7j2hoygo4rd::::res://assets/NollieHeelflip.png<>uid://dan204wxjrgna::::res://assets/NollieKickflip.png<>uid://cwmdtvkdeml3x::::res://assets/PopShoveIt.png<>uid://b47wwkbiylkne::::res://assets/Riding.png
@@ -65,4 +65,4 @@ Skateboard.tscn::PackedScene::-1::1701422627::0::1::::<><>::res://assets/Riding.
 SkillsHUD.gd::GDScript::-1::1701409172::0::1::::<>Node2D<>::
 SkillsHUD.tscn::PackedScene::828330675006712678::1701422719::0::1::::<><>::res://src/SkillsHUD.gd<>uid://0h0xydig4dn1::::res://assets/Level Medals/Medal2.png<>uid://da1h0y8lyd2ay::::res://assets/EmptyProgressBar.png<>uid://bj35h0uednhf5::::res://assets/ProgressBarProgress.png<>uid://dcipbtdfdoogg::::res://assets/Level Medals/Medal5.png<>uid://bwlbclllfsklo::::res://assets/Level Medals/Medal3.png<>uid://605v3el70g8a::::res://assets/Level Medals/Medal1.png<>uid://pj3ao5q2m0ps::::res://assets/Level Medals/Medal4.png<>uid://b1c1joae3e5jb::::res://assets/Level Medals/Medal15.png<>uid://dk6xdff315f2n::::res://assets/Level Medals/Medal16.png<>uid://bsledpsyrru6::::res://assets/Level Medals/Medal19.png<>uid://ch2t284rmpyhl::::res://assets/Level Medals/Medal17.png<>uid://dly5yc7xf4lks::::res://assets/Level Medals/Medal18.png<>uid://i0sacamsn3de::::res://assets/Level Medals/Medal22.png<>uid://bprlw7mmwqt4d::::res://assets/Level Medals/Medal23.png<>uid://bts5kylqrslwc::::res://assets/Level Medals/Medal20.png<>uid://cwum3apgrug43::::res://assets/Level Medals/Medal21.png<>uid://djreqqpmo5m76::::res://assets/Level Medals/Medal25.png<>uid://dkky10aedtp1g::::res://assets/Level Medals/Medal24.png<>uid://g8n5ugmnseyg::::res://assets/Level Medals/Medal8.png<>uid://dt5g6b21rlph3::::res://assets/Level Medals/Medal9.png<>uid://bjygkllinbxfr::::res://assets/Level Medals/Medal10.png<>uid://da766dmies3q6::::res://assets/Level Medals/Medal13.png<>uid://bnhov7xpvipsi::::res://assets/Level Medals/Medal11.png<>uid://cfaeqxh710tib::::res://assets/Level Medals/Medal12.png<>uid://bqaph672a14qy::::res://assets/Level Medals/Medal14.png<>uid://ecedhcy2ohy4::::res://assets/Level Medals/Medal6.png<>uid://c3tslkcbabjlt::::res://assets/Level Medals/Medal7.png
 StartMenu.gd::GDScript::-1::1701422627::0::1::::<>Node2D<>::
-StartMenu.tscn::PackedScene::5098054522830861356::1701422718::0::1::::<><>::res://src/StartMenu.gd<>uid://k8iy7h7sch4p::::res://assets/Menu/PlayButton.png<>uid://dx4vifibw7gt4::::res://assets/Menu/MenuBackground.png<>uid://cdglfcvch2ta8::::res://assets/Menu/SettingsButton.png<>uid://be1noq1wpobkc::::res://assets/Menu/ClickFlipLogo.png<>uid://dp2nlorb0wlj7::::res://assets/Menu/SettingsButtonPressed.png<>uid://dnx7sgbji5y6o::::res://assets/Menu/PlayButtonPressed.png
+StartMenu.tscn::PackedScene::5098054522830861356::1701425882::0::1::::<><>::res://src/StartMenu.gd<>uid://dsaljvk3tymlo::::res://assets/Menu/PlayButton.png<>uid://co31bqgk5ej6u::::res://assets/Menu/MenuBackground.png<>uid://bm8mr6uwqg56i::::res://assets/Menu/SettingsButton.png<>uid://dkh4rp4lsnpm5::::res://assets/Menu/ClickFlipLogo.png<>uid://c4blhy1ogf2d3::::res://assets/Menu/SettingsButtonPressed.png<>uid://k0fvj4e0t0e4::::res://assets/Menu/PlayButtonPressed.png
