@@ -5,8 +5,8 @@
 [ext_resource path="res://src/CityBackground.tscn" type="PackedScene" id=3]
 [ext_resource path="res://src/SkillsHUD.tscn" type="PackedScene" id=4]
 [ext_resource path="res://src/Settings.tscn" type="PackedScene" id=5]
-[ext_resource path="res://assets/Menu/buttonPressed.png" type="Texture" id=7]
-[ext_resource path="res://assets/Menu/buttonNormal.png" type="Texture" id=8]
+[ext_resource path="res://assets/Menu/buttonPressed.png" type="Texture2D" id=7]
+[ext_resource path="res://assets/Menu/buttonNormal.png" type="Texture2D" id=8]
 
 [node name="Player" type="Control"]
 anchor_right = 1.0
@@ -17,10 +17,10 @@ script = ExtResource( 1 )
 frame = 1
 
 [node name="Button" type="TextureButton" parent="."]
-margin_left = 796.0
-margin_top = 467.0
-margin_right = 921.0
-margin_bottom = 542.0
+offset_left = 796.0
+offset_top = 467.0
+offset_right = 921.0
+offset_bottom = 542.0
 texture_normal = ExtResource( 8 )
 texture_pressed = ExtResource( 7 )
 texture_disabled = ExtResource( 7 )
@@ -32,24 +32,24 @@ position = Vector2( 513, 494 )
 frame = 2
 
 [node name="NextTrickStaticLabel" type="Label" parent="."]
-margin_left = 798.0
-margin_top = 455.0
-margin_right = 870.0
-margin_bottom = 479.0
+offset_left = 798.0
+offset_top = 455.0
+offset_right = 870.0
+offset_bottom = 479.0
 text = "Next Trick:"
 
 [node name="NextTrickDynamicLabel" type="Label" parent="."]
-margin_left = 873.0
-margin_top = 455.0
-margin_right = 945.0
-margin_bottom = 479.0
+offset_left = 873.0
+offset_top = 455.0
+offset_right = 945.0
+offset_bottom = 479.0
 
 [node name="NextTrickChanceLabel" type="Label" parent="."]
-margin_left = 928.0
-margin_top = 478.0
-margin_right = 958.0
-margin_bottom = 494.0
-rect_scale = Vector2( 3, 3 )
+offset_left = 928.0
+offset_top = 478.0
+offset_right = 958.0
+offset_bottom = 494.0
+scale = Vector2( 3, 3 )
 
 [node name="SkillsHUD" parent="." instance=ExtResource( 4 )]
 

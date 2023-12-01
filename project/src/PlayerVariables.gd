@@ -5,7 +5,7 @@ extends Node
 # var b = "text"
 signal SyncGameData
 var moving = true
-onready var settings_node = get_node("SkillsHUD/Settings")
+@onready var settings_node = get_node("SkillsHUD/Settings")
 var game_data
 var next_trick
 

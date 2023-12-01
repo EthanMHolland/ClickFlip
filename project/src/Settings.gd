@@ -92,7 +92,9 @@ func loadGame():
 		loadFile.open("user://ClickFlip_Save.json", File.READ)
 		var loadData = loadFile.get_as_text()
 		loadFile.close()
-		var data = parse_json(loadData)
+		var test_json_conv = JSON.new()
+		test_json_conv.parse(loadData)
+		var data = test_json_conv.get_data()
 		game_data = data
 
 func saveUnlockedTricks():
