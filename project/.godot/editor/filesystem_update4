@@ -1,8 +1,6 @@
 res://default_env.tres
+res://src/StartMenu.tscn
 res://src/ClickFlipScene.tscn
 res://src/Player.tscn
 res://src/CityBackground.tscn
 res://src/SkillsHUD.tscn
-res://src/StartMenu.tscn
-res://src/Settings.gd
-res://src/PlayerVariables.gd
