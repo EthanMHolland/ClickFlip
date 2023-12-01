@@ -17,8 +17,8 @@ func _ready():
 
 
 func _on_PlayButton_pressed():
-	var _changeScene = get_tree().change_scene_to_file("res://src/ClickFlipScene.tscn")
+	var _changeScene = get_tree().change_scene("res://src/ClickFlipScene.tscn")
 
 
 func _on_SettingsButton_pressed():
-	var _changeScene = get_tree().change_scene_to_file("res://src/SettingsMenu.tscn")
+	var _changeScene = get_tree().change_scene("res://src/SettingsMenu.tscn")

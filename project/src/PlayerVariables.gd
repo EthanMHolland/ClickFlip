@@ -4,7 +4,8 @@ extends Node
 # var a = 2
 # var b = "text"
 signal SyncGameData
-var moving = false
+var moving = true
+onready var settings_node = get_node("SkillsHUD/Settings")
 var game_data
 var next_trick
 
@@ -23,6 +24,7 @@ func _process(_delta):
 
 
 func _on_Button_button_down():
+	$Button.disabled = true
 	AttemptTrick()
 
 func getTrickPercentage(trick_name):
@@ -43,7 +45,6 @@ func addXPtoTrick(trick, result):
 
 func AttemptTrick():
 	if moving:
-		$Button.disabled = true
 		# Check if the trick succeeds based on the current trickCompletionChance
 		randomize()
 		var randomValue = randi() % 100  # Generate a random integer between 0 and 99
@@ -70,7 +71,7 @@ func setMoving(boolean, _trick):
 		$Skateboard.play("Riding")
 	else:
 		moving = boolean
-		$CityBackground.pause()
+		$CityBackground.stop()
 		if next_trick["popLocation"] == "Tail":
 			$Skateboard.play("Failed Ollie")
 		if next_trick["popLocation"] == "Nose":
@@ -95,13 +96,13 @@ func _on_Skateboard_animation_finished():
 		$Skateboard.play("Riding")
 
 
-func _on_SkillsHUD_SyncGameData(data):
-	if !data == null:
-		game_data = data
-		updateNextTrickLabels()
 
-
-func _on_settings_game_data_ready(recievedData):
+func _on_Settings_game_data_ready(recievedData):
 	game_data = recievedData
 	emit_signal("SyncGameData", game_data)
 	prepareNextTrick()
+
+
+func _on_SkillsHUD_SyncGameData(data):
+	game_data = data
+	updateNextTrickLabels()

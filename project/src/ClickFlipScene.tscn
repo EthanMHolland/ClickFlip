@@ -1,7 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://bqr1byi3wba4l"]
+[gd_scene load_steps=2 format=2]
 
-[ext_resource type="PackedScene" uid="uid://bmdarvyaprfh0" path="res://src/Player.tscn" id="2"]
+[ext_resource path="res://src/Player.tscn" type="PackedScene" id=2]
 
 [node name="ClickFlipScene" type="Node2D"]
 
-[node name="Player" parent="." instance=ExtResource("2")]
+[node name="Player" parent="." instance=ExtResource( 2 )]
