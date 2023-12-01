@@ -492,7 +492,7 @@ script = ExtResource("1")
 [node name="CityBackground" parent="." instance=ExtResource("3")]
 position = Vector2(577.5, 317)
 scale = Vector2(18.0156, 20.75)
-frame_progress = 0.866918
+frame_progress = 0.435302
 
 [node name="Button" type="TextureButton" parent="."]
 texture_filter = 1
@@ -512,7 +512,7 @@ texture_filter = 1
 position = Vector2(543, 532)
 sprite_frames = SubResource("SpriteFrames_nln0a")
 animation = &"Riding"
-frame_progress = 0.794611
+frame_progress = 0.363009
 
 [node name="NextTrickStaticLabel" type="Label" parent="."]
 layout_mode = 0
