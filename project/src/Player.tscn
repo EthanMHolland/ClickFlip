@@ -490,17 +490,17 @@ grow_vertical = 2
 script = ExtResource("1")
 
 [node name="CityBackground" parent="." instance=ExtResource("3")]
-position = Vector2(577.5, 317)
-scale = Vector2(18.0156, 20.75)
+position = Vector2(600.5, 292)
+scale = Vector2(18.7344, 19.1875)
 frame_progress = 0.435302
 
 [node name="Button" type="TextureButton" parent="."]
 texture_filter = 1
 layout_mode = 0
-offset_left = 860.0
-offset_top = 494.0
-offset_right = 1012.0
-offset_bottom = 586.0
+offset_left = 888.0
+offset_top = 456.0
+offset_right = 1040.0
+offset_bottom = 548.0
 texture_normal = ExtResource("8")
 texture_pressed = ExtResource("7")
 texture_disabled = ExtResource("7")
@@ -509,34 +509,32 @@ stretch_mode = 4
 
 [node name="Skateboard" parent="." instance=ExtResource("2")]
 texture_filter = 1
-position = Vector2(543, 532)
+position = Vector2(551, 503)
 sprite_frames = SubResource("SpriteFrames_nln0a")
 animation = &"Riding"
 frame_progress = 0.363009
 
 [node name="NextTrickStaticLabel" type="Label" parent="."]
 layout_mode = 0
-offset_left = 862.0
-offset_top = 472.0
-offset_right = 945.0
-offset_bottom = 496.0
+offset_left = 891.0
+offset_top = 437.0
+offset_right = 974.0
+offset_bottom = 461.0
 text = "Next Trick:"
 
 [node name="NextTrickDynamicLabel" type="Label" parent="."]
 layout_mode = 0
-offset_left = 950.0
-offset_top = 472.0
-offset_right = 1022.0
-offset_bottom = 496.0
-text = "Ollie
-"
+offset_left = 977.0
+offset_top = 437.0
+offset_right = 1049.0
+offset_bottom = 461.0
 
 [node name="NextTrickChanceLabel" type="Label" parent="."]
 layout_mode = 0
-offset_left = 1028.0
-offset_top = 504.0
-offset_right = 1058.0
-offset_bottom = 527.0
+offset_left = 1057.0
+offset_top = 468.0
+offset_right = 1087.0
+offset_bottom = 491.0
 scale = Vector2(3, 3)
 
 [node name="SkillsHUD" parent="." instance=ExtResource("4")]
