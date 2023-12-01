@@ -79,23 +79,23 @@ func _ready():
 #	pass
 
 
-func saveGame():
-	saveUnlockedTricks()
-	var saveFile = File.new()
-	saveFile.open("user://ClickFlip_Save.json", File.WRITE)
-	saveFile.store_string(game_data)
-	saveFile.close()
+#func saveGame():
+#	saveUnlockedTricks()
+#	var saveFile = File.new()
+#	saveFile.open("user://ClickFlip_Save.json", File.WRITE)
+#	saveFile.store_string(game_data)
+#	saveFile.close()
 
-func loadGame():
-	var loadFile = File.new()
-	if loadFile.file_exists("user://ClickFlip_Save.json"):
-		loadFile.open("user://ClickFlip_Save.json", File.READ)
-		var loadData = loadFile.get_as_text()
-		loadFile.close()
-		var test_json_conv = JSON.new()
-		test_json_conv.parse(loadData)
-		var data = test_json_conv.get_data()
-		game_data = data
+#func loadGame():
+#	var loadFile = File.new()
+#	if loadFile.file_exists("user://ClickFlip_Save.json"):
+#		loadFile.open("user://ClickFlip_Save.json", File.READ)
+#		var loadData = loadFile.get_as_text()
+#		loadFile.close()
+#		var test_json_conv = JSON.new()
+#		test_json_conv.parse(loadData)
+#		var data = test_json_conv.get_data()
+#		game_data = data
 
 func saveUnlockedTricks():
 	for trick in allTricks:
