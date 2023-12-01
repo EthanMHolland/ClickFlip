@@ -1,6 +1,6 @@
 [gd_scene load_steps=30 format=2]
 
-[ext_resource path="res://SkillsHUD.gd" type="Script" id=1]
+[ext_resource path="res://src/SkillsHUD.gd" type="Script" id=1]
 [ext_resource path="res://assets/Level Medals/Medal2.png" type="Texture" id=2]
 [ext_resource path="res://assets/EmptyProgressBar.png" type="Texture" id=3]
 [ext_resource path="res://assets/ProgressBarProgress.png" type="Texture" id=4]

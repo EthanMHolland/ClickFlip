@@ -283,5 +283,5 @@ position = Vector2( 513.5, 301 )
 scale = Vector2( 15.9531, 18.6875 )
 frames = SubResource( 68 )
 animation = "Moving"
-frame = 48
+frame = 44
 playing = true

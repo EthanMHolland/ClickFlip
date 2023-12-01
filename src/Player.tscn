@@ -1,10 +1,10 @@
 [gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://scripts/PlayerVariables.gd" type="Script" id=1]
-[ext_resource path="res://Skateboard.tscn" type="PackedScene" id=2]
-[ext_resource path="res://CityBackground.tscn" type="PackedScene" id=3]
-[ext_resource path="res://SkillsHUD.tscn" type="PackedScene" id=4]
-[ext_resource path="res://Settings.tscn" type="PackedScene" id=5]
+[ext_resource path="res://src/Skateboard.tscn" type="PackedScene" id=2]
+[ext_resource path="res://src/CityBackground.tscn" type="PackedScene" id=3]
+[ext_resource path="res://src/SkillsHUD.tscn" type="PackedScene" id=4]
+[ext_resource path="res://src/Settings.tscn" type="PackedScene" id=5]
 [ext_resource path="res://assets/Menu/buttonPressed.png" type="Texture" id=7]
 [ext_resource path="res://assets/Menu/buttonNormal.png" type="Texture" id=8]
 
